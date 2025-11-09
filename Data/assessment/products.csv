@@ -1,0 +1,10 @@
+﻿Column Name,Data Type,Non-null Count,Missing Count (%),Unique Values,Most Frequent Value,Notes / Cleaning Needed
+product_id,Text,32336,0%,32336,—,"Should be unique, primary key"
+product_category_name,Text,32336,—,1,cama_mesa_banho, 
+product_name_length,Whole Number,32336,0%,—,—,removed this coulmn
+product_description_length,Whole Number,32336,0%,—,—,removed this coulmn
+product_photos_qty,Whole Number,32336,0%,—,—,removed this coulmn
+product_weight_g,Whole Number,32336,0%,1038,200,"Should be > 0, some  rows gonne because of 0."
+product_length_cm,Whole Number,32336,0%,1,16,Should be > 0
+product_height_cm,Whole Number,32336,0%,3,10,Should be > 0
+product_width_cm,Whole Number,32336,0%,9,11,Should be > 0

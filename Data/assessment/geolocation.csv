@@ -1,0 +1,6 @@
+﻿Column Name,Data Type,Non-null Count,Missing Count (%),Unique Values,Most Frequent Value,Notes / Cleaning Needed
+geolocation_zip_code_prefix,Whole Number,1000163,0,1043,24220,
+geolocation_lat,Decimal,1000163,0,584686,-27.102099,
+geolocation_lng,Decimal,1000163,0,585030,-48.6296135,
+geolocation_city,Text,1000163,0,823,Sao Paulo,"Removing accents (like ã, é, ç) may merge different city names into one.so don’t change that."
+geolocation_state,Text,1000163,0,27,SP,"Standardize, should be 2 letters"

@@ -1,0 +1,3 @@
+﻿Column Name,Data Type,Non-null Count,Missing Count (%),Unique Values,Most Frequent Value,Notes / Cleaning Needed
+product_category_name,Text,71,0%,71,Unique,"Primary key, should join with products"
+product_category_name_english,Text,71,0%,71,Unique,"Should not be null, use for dashboard"

@@ -1,0 +1,11 @@
+﻿Column Name,Data Type,Non-null Count,Missing Count (%),Unique Values,Most Frequent Value,Notes / Cleaning Needed
+order_id,Text,"99,441",0%,"99,441",Unique,"Should be unique, primary key"
+customer_id,Text,"99,441",0%,"99,441",Unique,Should match in customers table
+order_status,Text,"99,441",0%,8,delivered,only put delivered
+order_purchase_timestamp,Date/Time,"99,441",0%,"98,319",—,Should be < delivered dates
+order_approved_at,Date/Time,"99,281",<1%,"83,688",—,Should be >= purchase_timestamp
+order_delivered_carrier_date,Date/Time,"97,658",2%,"70,926",—,—
+order_delivered_customer_date,Date/Time,"96,476",3%,"94,860",—,May be null if not delivered
+order_estimated_delivery_date,Date/Time,"99,441",0%,21,—,Should always be present
+Delivery_Flag,Text,"99,441",3%,0,—,create to check deliver or not
+Delivery Days,Whole Number ,"96,476",3%,—,—,check how much days taken to delivery

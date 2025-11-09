@@ -1,0 +1,8 @@
+﻿Column Name,Data Type,Non-null Count,Missing Count (%),Unique Values,Most Frequent Value,Notes / Cleaning Needed
+review_id,Text,98410,0%,98410,—,Should be unique
+order_id,Text,98410,0%,97924,—,Should match with orders table
+review_score,Whole Number,98410,0%,0,5,Only values 1–5 should exist
+review_comment_title,Text,98410,[likely many blanks],—,—,I removed this
+review_comment_message,Text,98410,[likely many blanks],—,—,I removed this
+review_creation_date,Date/Time,98410,0%,29,—,—
+review_answer_timestamp,Date/Time,98410,0%,98089,—,—

@@ -1,0 +1,5 @@
+﻿Column Name,Data Type,Non-null Count,Missing Count (%),Unique Values,Most Frequent Value,Notes / Cleaning Needed
+seller_id,Text,"3,095",0%,"3,095",—,"Should be unique, primary key"
+seller_zip_code_prefix,Whole Number,"3,095",0%,1709,14940,—
+seller_city,Text,"3,095",0%,342,sao paulo,Standardize case
+seller_state,Text,"3,095",0%,5,SP,"Should be 2-letter uppercase, no nulls"
